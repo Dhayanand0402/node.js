@@ -31,3 +31,7 @@ app.delete('/students/:id', (req,res)=>{
     res.json({message:"Deleted"}); 
 }); 
 app.listen(3000, ()=>console.log("Server running")); 
+
+//cd "[directoryname]\[foldername]"
+//npm i express
+//node prgm4.js
