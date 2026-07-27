@@ -11,6 +11,6 @@ app.get('/users', (req, res) => {
 
 app.listen(3000, () => console.log('Express Server running'));
 
-//cd "[directoryname]\[filename]"
+//cd "[directoryname]\[foldername]"
 // npm install express
 // node P2.js
