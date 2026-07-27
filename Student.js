@@ -21,3 +21,6 @@ const Student = mongoose.model("Student", studentSchema);
 module.exports = Student;
 
 console.log("Student model created successfully.");
+
+//npm i mongoose
+//node [filename]
