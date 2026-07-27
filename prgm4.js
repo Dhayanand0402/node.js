@@ -34,4 +34,4 @@ app.listen(3000, ()=>console.log("Server running"));
 
 //cd "[directoryname]\[foldername]"
 //npm i express
-//node prgm4.js
+//node [filename]
