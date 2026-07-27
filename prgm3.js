@@ -16,5 +16,6 @@ app.listen(3000, () => {
   console.log("Server running..."); 
 });
 
+//cd "[directoryname]\[filename]"
 //npm i express
 //node [filename]
