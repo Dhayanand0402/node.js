@@ -9,5 +9,5 @@ server.listen(3000, () => {
     console.log('Server running at port 3000');
 });
 
-//cd "[directoryname]\[filename]"
-// node P1.js
+//cd "[directoryname]\[foldername]"
+// node [filename]
