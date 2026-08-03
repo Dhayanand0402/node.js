@@ -33,5 +33,4 @@ main();
 //mongosh 
 //show dbs
 //use studentDB
-//db.createCollection("students")
 //db.students.find()
