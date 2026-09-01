@@ -11,9 +11,9 @@ const students = [
     {id: 7,name:"Gopal",department:"IT"},
     {id: 8,name:"Hari",department:"ECE"},
     {id: 9,name:"Imran",department:"CSE"},
-    {id: 10,name:"jagan",department:"CSE"}
-    
+    {id: 10,name:"jagan",department:"CSE"} 
 ];
+
 app.get("/students",(req, res)=>{
     const page = parseint(req.query.page) || 1;
     const limit = parseint(req.query.limit) || 3;
@@ -28,6 +28,7 @@ app.get("/students",(req, res)=>{
         students:result
     });
 });
+
 app.listen(3000, () => {
     console.log("server running at http://localhost:3000");
 });
